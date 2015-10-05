@@ -93,7 +93,7 @@ To run the above tools do the following:
 
 * `cqlsh` - use `com-cqlsh` instead. You can pass all `cqlsh` options to `com-cqlsh`, except host and port.
 * `nodetool` - use `com-nodetool` instead. You can pass all `nodetool` options to `com-nodetool`, except host and port.
-  **Important JMX security issue** since version 2.1.4 (and 2.0.14) Cassandra no longer exposes the JMX port to all
+  **Important JMX security issue** since version 2.1.9 (and 2.0.14) Cassandra no longer exposes the JMX port to all
   interfaces but only to the loopback address. See [readme](https://github.com/mesosphere/cassandra-mesos/blob/master/README.md) for details.
 * `cassandra-stress` - use `com-stress` instead. You can pass all `cassandra-stress` options to `com-stress`,except host and port.
 

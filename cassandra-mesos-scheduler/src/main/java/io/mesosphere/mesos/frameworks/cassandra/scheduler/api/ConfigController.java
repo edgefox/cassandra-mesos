@@ -51,7 +51,7 @@ public final class ConfigController {
      * "frameworkName" : "cassandra",
      * "frameworkId" : "20150318-143436-16777343-5050-5621-0000",
      * "defaultConfigRole" : {
-     *     "cassandraVersion" : "2.1.4",
+     *     "cassandraVersion" : "2.1.9",
      *     "targetNodeCount" : 2,
      *     "seedNodeCount" : 1,
      *     "diskMb" : 2048,

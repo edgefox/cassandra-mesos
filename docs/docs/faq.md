@@ -49,11 +49,11 @@ Yes! However, if you run Mesos on Amazon EC2 or Google Compute Engine, make sure
 
 ### **JMX port of Apache Cassandra**
 
-  A possible security risk in Apache has been closed in versions 2.0.14 and 2.1.4. This had impact to the
-  current development of the Cassandra-Mesos framework. Since 2.0.14 and 2.1.4 Apache Cassandra only opens the JMX port (usually 7199) on the loopback address (`127.0.0.1`). If you wish to open it **and know that you introduce a possible security risk**, you can pass the environment variables CASSANDRA_JMX_LOCAL=false` and `CASSANDRA_JMX_NO_AUTHENTICATION=true` to the framework upon **initial** invocation (i.e. when the framework first registers).
+  A possible security risk in Apache has been closed in versions 2.0.14 and 2.1.9. This had impact to the
+  current development of the Cassandra-Mesos framework. Since 2.0.14 and 2.1.9 Apache Cassandra only opens the JMX port (usually 7199) on the loopback address (`127.0.0.1`). If you wish to open it **and know that you introduce a possible security risk**, you can pass the environment variables CASSANDRA_JMX_LOCAL=false` and `CASSANDRA_JMX_NO_AUTHENTICATION=true` to the framework upon **initial** invocation (i.e. when the framework first registers).
 
   [CASSANDRA-9089](https://issues.apache.org/jira/browse/CASSANDRA-9089) is meant to let JMX listen to a
-  specific IP address, but is is not included in Cassandra 2.1.4.
+  specific IP address, but is is not included in Cassandra 2.1.9.
 
   References:
 

@@ -73,7 +73,7 @@ public final class NodeController {
      *     "healthCheckDetails" : {
      *         "healthy" : true,
      *         "msg" : "",
-     *         "version" : "2.1.4",
+     *         "version" : "2.1.9",
      *         "operationMode" : "NORMAL",
      *         "clusterName" : "cassandra",
      *         "dataCenter" : "DC1",
@@ -114,7 +114,7 @@ public final class NodeController {
      *     "healthCheckDetails" : {
      *         "healthy" : true,
      *         "msg" : "",
-     *         "version" : "2.1.4",
+     *         "version" : "2.1.9",
      *         "operationMode" : "JOINING",
      *         "clusterName" : "cassandra",
      *         "dataCenter" : "",

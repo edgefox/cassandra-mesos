@@ -106,7 +106,7 @@ message CassandraConfigRole {
     optional string name = 1;
 
     /**
-     * Cassandra version string. Example: 2.1.4
+     * Cassandra version string. Example: 2.1.9
      */
     optional string cassandraVersion = 2;
 

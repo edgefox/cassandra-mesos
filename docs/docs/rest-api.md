@@ -1051,7 +1051,7 @@ Similar to `/node/{node}/non-seed`.
       "jmxIp" : "127.0.0.1",
       "jmxPort" : 62008,
       "live" : false,
-      "logfiles" : [ "/private/tmp/mesos/slave2/slaves/20150402-133617-16777343-5050-33867-S2/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.0.executor/runs/c669173c-f122-4f98-aa30-62836c128597/executor.log", "/private/tmp/mesos/slave2/slaves/20150402-133617-16777343-5050-33867-S2/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.0.executor/runs/c669173c-f122-4f98-aa30-62836c128597/apache-cassandra-2.1.4/logs/system.log" ]
+      "logfiles" : [ "/private/tmp/mesos/slave2/slaves/20150402-133617-16777343-5050-33867-S2/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.0.executor/runs/c669173c-f122-4f98-aa30-62836c128597/executor.log", "/private/tmp/mesos/slave2/slaves/20150402-133617-16777343-5050-33867-S2/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.0.executor/runs/c669173c-f122-4f98-aa30-62836c128597/apache-cassandra-2.1.9/logs/system.log" ]
     },
     "cassandra.node.1.executor" : {
       "workdir" : "/private/tmp/mesos/slave1/slaves/20150402-133617-16777343-5050-33867-S0/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.1.executor/runs/40a91e16-fde8-4b29-b4f7-6dc01c9206ad",
@@ -1062,7 +1062,7 @@ Similar to `/node/{node}/non-seed`.
       "jmxIp" : "127.0.0.1",
       "jmxPort" : 62009,
       "live" : false,
-      "logfiles" : [ "/private/tmp/mesos/slave1/slaves/20150402-133617-16777343-5050-33867-S0/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.1.executor/runs/40a91e16-fde8-4b29-b4f7-6dc01c9206ad/executor.log", "/private/tmp/mesos/slave1/slaves/20150402-133617-16777343-5050-33867-S0/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.1.executor/runs/40a91e16-fde8-4b29-b4f7-6dc01c9206ad/apache-cassandra-2.1.4/logs/system.log" ]
+      "logfiles" : [ "/private/tmp/mesos/slave1/slaves/20150402-133617-16777343-5050-33867-S0/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.1.executor/runs/40a91e16-fde8-4b29-b4f7-6dc01c9206ad/executor.log", "/private/tmp/mesos/slave1/slaves/20150402-133617-16777343-5050-33867-S0/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.1.executor/runs/40a91e16-fde8-4b29-b4f7-6dc01c9206ad/apache-cassandra-2.1.9/logs/system.log" ]
     }
   }
 }
@@ -1076,13 +1076,13 @@ JMX_IP: 127.0.0.1
 NODE_IP: 127.0.0.2
 BASE: http://127.0.0.2:5051/
 LOG: /private/tmp/mesos/slave2/slaves/20150402-133617-16777343-5050-33867-S2/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.0.executor/runs/c669173c-f122-4f98-aa30-62836c128597/executor.log
-LOG: /private/tmp/mesos/slave2/slaves/20150402-133617-16777343-5050-33867-S2/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.0.executor/runs/c669173c-f122-4f98-aa30-62836c128597/apache-cassandra-2.1.4/logs/system.log
+LOG: /private/tmp/mesos/slave2/slaves/20150402-133617-16777343-5050-33867-S2/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.0.executor/runs/c669173c-f122-4f98-aa30-62836c128597/apache-cassandra-2.1.9/logs/system.log
 JMX_PORT: 62009
 JMX_IP: 127.0.0.1
 NODE_IP: 127.0.0.1
 BASE: http://127.0.0.1:5051/
 LOG: /private/tmp/mesos/slave1/slaves/20150402-133617-16777343-5050-33867-S0/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.1.executor/runs/40a91e16-fde8-4b29-b4f7-6dc01c9206ad/executor.log
-LOG: /private/tmp/mesos/slave1/slaves/20150402-133617-16777343-5050-33867-S0/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.1.executor/runs/40a91e16-fde8-4b29-b4f7-6dc01c9206ad/apache-cassandra-2.1.4/logs/system.log
+LOG: /private/tmp/mesos/slave1/slaves/20150402-133617-16777343-5050-33867-S0/frameworks/20150402-133617-16777343-5050-33867-0001/executors/cassandra.node.1.executor/runs/40a91e16-fde8-4b29-b4f7-6dc01c9206ad/apache-cassandra-2.1.9/logs/system.log
 ```
 
 ## GET `/health/process`
