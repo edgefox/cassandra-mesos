@@ -32,6 +32,7 @@ import javax.management.NotificationListener;
 import javax.management.openmbean.CompositeData;
 import javax.management.openmbean.OpenDataException;
 import javax.management.openmbean.TabularData;
+import java.io.IOException;
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
 import java.net.InetAddress;
@@ -374,6 +375,11 @@ class TestObjectFactory implements ObjectFactory {
             throw new UnsupportedOperationException();
         }
 
+        @Override public void takeMultipleColumnFamilySnapshot(String s, String... strings)
+            throws IOException {
+            throw new UnsupportedOperationException();
+        }
+
         @Override
         public void clearSnapshot(final String tag, final String... keyspaceNames) {
             throw new UnsupportedOperationException();
@@ -397,6 +403,11 @@ class TestObjectFactory implements ObjectFactory {
         @Override
         public int scrub(final boolean disableSnapshot, final boolean skipCorrupted, final String keyspaceName, final String... columnFamilies) {
             throw new UnsupportedOperationException();
+        }
+
+        @Override public int scrub(boolean b, boolean b1, boolean b2, String s, String... strings)
+            throws IOException, ExecutionException, InterruptedException {
+            return 0;
         }
 
         @Override
@@ -901,6 +912,22 @@ class TestObjectFactory implements ObjectFactory {
         @Override
         public void setMaximumCompactionThreshold(int threshold) {
             throw new UnsupportedOperationException();
+        }
+
+        @Override public void setCompactionParametersJson(String s) {
+            throw new UnsupportedOperationException();
+        }
+
+        @Override public String getCompactionParametersJson() {
+            return null;
+        }
+
+        @Override public void setCompactionParameters(Map<String, String> map) {
+            throw new UnsupportedOperationException();
+        }
+
+        @Override public Map<String, String> getCompactionParameters() {
+            return null;
         }
 
         @Override
